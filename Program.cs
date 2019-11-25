@@ -1,12 +1,11 @@
-﻿using System;
-
-namespace C_Reversi
+﻿namespace C_Reversi
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            ReversiGame game = new ReversiGame();
+            game.play();
         }
     }
 }
